@@ -12,7 +12,7 @@ html{
 }
 
 nav{
-    height: 80px;
+    height: calc(15vh - 40px);
     display: flex;
 }
 
@@ -63,6 +63,8 @@ li{
     list-style-type: none;
 }
 
+
+
 .nav__link{
     margin-left: 16px;
     text-decoration: none;
@@ -70,9 +72,10 @@ li{
     color: #7342d6;
     font-weight: bold;
     padding: 8px;
+    margin-top: 8px;
 }
 
-.nav__link:hover{
+.nav__links:hover{
     text-decoration: underline;
 }
 
@@ -89,10 +92,14 @@ li{
 .btn__menu{
     background-color: transparent;
     font-size: 40px;
+    padding: 12px 24px;
+    margin-left: 80%;
+    margin-right: 20px;
     text-align: center;
     border: none;
     color: #7342d6;
-    display: none;
+    display: flex;
+    
 }
 
 .menu__backdrop{
@@ -150,7 +157,7 @@ li{
 }
 
 header{
-    height: calc(100vh - 80px);
+    height: calc(100vh - 40px);
 }
 
 .header__container{
