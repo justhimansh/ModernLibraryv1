@@ -93,7 +93,7 @@ li{
     background-color: transparent;
     font-size: 40px;
     padding: 12px 24px;
-    margin-left: 80%;
+    
     margin-right: 20px;
     text-align: center;
     border: none;
@@ -408,7 +408,7 @@ footer{
 
 
 @media (max-width: 550px){
-    .nav__links{
+    .nav__link{
         display: none;
     }
     .btn__menu{
